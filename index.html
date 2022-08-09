@@ -29,7 +29,7 @@
             ><span class="logo-black">Studio</span></a
           >
           <ul class="nav-list list">
-            <li class="current"><a href="" class="nav-link link ">Студия</a></li>
+            <li class="current"><a href="" class="nav-link link">Студия</a></li>
             <li>
               <a href="./portfolio.html" class="nav-link link">Портфолио</a>
             </li>
@@ -62,7 +62,7 @@
       <!-- Интро -->
       <section class="intro">
         <h1 class="intro-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="btn primary">Заказать услугу</button>
+        <button type="button" class="btn primary" data-modal-open>Заказать услугу</button>
       </section>
       <!-- Преимущества -->
       <section class="our-benefit">
@@ -436,5 +436,13 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden"  data-modal>
+      <div class="modal">
+        <button type="button" class="btn btn-close" data-modal-close>
+          <img src="./image/svg/closed.svg" alt="X" width="11" height="11" />
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
